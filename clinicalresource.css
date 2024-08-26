@@ -1,0 +1,119 @@
+.content section .list-item{
+    width: 95%;
+    border: none;
+    border-radius: 0px 0px 20px 20px;
+    border-right: 5px solid #ce4166;
+    border-bottom: 5px solid #509569;
+    border-left: 5px solid #6cbfce;
+    margin-bottom: 5%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.content section #list-item-rx{
+    height: 42%;
+}
+
+.content section #list-item-links{
+    height: 17%;
+}
+
+.content section #list-item-reference{
+    height: 12%;
+}
+
+.content section #list-item-forms{
+    height: 30%;
+}
+
+.content section #list-item-cerner{
+    height: 20%;
+}
+
+.content section #list-item-lab{
+    height: 8%;
+}
+
+.content section #list-item-iowa{
+    height: 40%;
+}
+
+.content section #list-item-policies{
+    height: 20%;
+}
+
+.content section #list-item-covid{
+    height: 32%;
+}
+
+.content section #list-item-misc{
+    height: 25%;
+}
+.content section #list-item-education{
+    height: 92%;
+}
+
+
+
+
+
+
+.content section div:hover{
+    cursor: default;
+    background: #445964;
+}
+
+ul{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+}
+
+ul li{
+    padding: 5px;
+    width: 100%;
+}
+
+
+ul a{
+    color: #fff;
+}
+
+ul a:hover{
+    color: #d3e97b;
+}
+
+.content section .header-list{
+    height: 7%;
+    border:none;
+    width: 95%;
+    border-radius: 20px 20px 0px 0px;
+    border-top: 5px solid #d3e97b;
+    border-right: 5px solid #ce4166;
+    border-left: 5px solid #6cbfce;
+}
+
+.content section .header-list:hover{
+    color: #fff;
+    background-color: #445964;
+    cursor: default;
+}
+
+.content section .final-header-list{
+    height: 7%;
+    border:none;
+    width: 100%;
+}
+
+
+.content section div h1{
+    text-decoration: underline;
+}
+
+.content section div ul div:hover{
+    color: #fff;
+}
+
+.content section div ul div{
+    border: none;
+    font-size: 12px;
+}

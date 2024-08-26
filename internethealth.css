@@ -1,0 +1,53 @@
+.content section #list-item-allergy{
+    height: 15%;
+}
+
+.content section #list-item-anesthesia{
+    height:35%;
+}
+
+.content section #list-item-cardiac{
+    height: 55%;
+}
+.content section #list-item-dermatology{
+    height: 20%;
+}
+.content section #list-item-gastro{
+    height: 35%;
+}
+.content section #list-item-infection{
+    height: 35%;
+}
+.content section #list-item-nutrition{
+    height: 17%;
+}
+
+.content section #list-item-occupational{
+    height: 18%;
+}
+
+.content section #list-item-oncology{
+    height: 32%;
+}
+
+.content section #list-item-online{
+    height: 28%;
+}
+
+.content section #list-item-ophth{
+    height: 14%;
+}
+
+.content section #list-item-radio{
+    height: 2%;
+}
+
+.content section #list-item-urology{
+    height: 8%;
+}
+.content section #list-item-professional{
+    height: 8%;
+}
+.content section #list-item-awesome{
+    height: 65%;
+}

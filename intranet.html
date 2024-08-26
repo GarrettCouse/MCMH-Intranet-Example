@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCMH Intranet</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="dycalendar.css"><link rel="icon" type="image/x-icon" href="/IMAGES/favicon.ico">
+</head>
+<body>
+    <nav class="topnav">
+        <div class="box1">
+            <div class="header__logo">
+                <img src="IMAGES/MCMH-logo-removebg-preview.png" alt="">
+            </div>
+        </div>
+        
+        <div class="box2">
+            <form autocomplete="off" action="javascript:;" onsubmit="getWebpage()">
+                <div class="autocomplete" style="width:300px;">
+                  <input id="myInput" type="text" name="webpages" placeholder="Search the Intranet">
+                </div>
+                <button type="submit" class="submit" value=" " ><i class="fa-solid fa-magnifying-glass" style="color: #445964;"></i></button>
+              </form> 
+        </div>
+    
+      
+ 
+    </nav>
+    <div class="decoration_bar">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <div class="bar4"></div>
+    </div>
+    <header>
+        <div class="menuToggle"></div>
+        <nav>
+            <ul>
+                <li><p class="top__dropdown">MCMH Phone System <b>▼</b></p>
+                    <ul class="activate">
+                        <li><p>Phone Guides<b>+</b></p>
+                            <ul>
+                                <li>
+                                    <a href="http://intranet/NEC%20Phone%20User%20Guide.docx">Phone Guide</a>
+                                </li>
+                                <li>
+                                    <a href="http://intranet/NEC%20Voice%20Mail%20User%20Guide.docx">Voice Mail Guide</a>
+                                </li>
+                                <li>
+                                    <a href="http://intranet/Spectralink%20Guide.pdf">Spectralink Guide</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><p>Phone Lists<b>+</b></p>
+                            <ul>
+                                <li>
+                                    <a href="http://intranet/directory/phones.asp">Phone List by Name/Department</a>
+                                </li>
+                                <li>
+                                    <a href="http://intranet/directory/deptheads.asp">Department Manager Phone List</a>
+                                </li>
+                                <li>
+                                    <a href="http://intranet/directory/pagerlist.asp">Paging List & Cell Phone Numbers</a>
+                                </li>
+                                <li>
+                                    <a href="http://intranet/directory/homephone.asp">Employee List w/ Home & Cell</a>
+                                </li>
+                                <li>
+                                    <a href="http://intranet/Database/disaster.htm">Emergency & Disaster Calling Lists</a>
+                                </li>
+                            </ul>
+                        </li>
+                            <li>
+                                <a href="http://intranet/notaries.html">Notaries</a>
+                            </li>
+                            <li>
+                                <a href="http://intranet/Emergency_Couriers/COURIER%20%20SCHEDULE%20-%202023.docx">Emergency Couriers</a>
+                            </li>
+                            <li>
+                            <a href="http://intranet/Instructions/Compliance%20Hotline.htm">Compliance Hotline Numbers</a>
+                        </li>
+                        <li>
+                            <a href="file:///Z:/responder_5.html">Responder 5 Client</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><p class="top__dropdown">Employee Information<b>▼</b></p>
+                    <ul>
+                        <li>
+                            <a href="http://intranet/Cafeteria/Menu.html">Cafeteria Menus</a>
+                        </li>
+                        <li>
+                            <a href="http://intranet/Catering%20Menu.pdf">Catering Menu</a>
+                        </li>
+                        <li>
+                            <a href="http://quickcharge/qc/login">QuickCharge</a>
+                        </li>
+                        <li>
+                            <a href="http://intranet/October%202019%20Schedule.pdf">Group Exercise Schedule</a>
+                        </li>
+                        <li>
+                            <a href="http://intranet/Lunch_Learns/">Lunch & Learn Schedule</a>
+                        </li>
+                        <li>
+                            <a href="humanresource.html">Human Resources FAQs</a>
+                        </li>
+                        <li>
+                            <a href="http://intranet/Instructions/Instruction%20Manual%20Index.htm">Find Help and Instructions</a>
+                        </li>
+                    </ul>
+                </li>
+                </li>
+                <li><p class="top__dropdown">EMR & Clinical Links<b>▼</b></p>
+                    <ul>
+                        <li><p>More<b>►</b></p>
+                            <ul>
+                                <a href="https://www.updox.com/">Updox</a>
+                            </li>
+                            <li>
+                                <a href="https://home.tigertext.com/">TigerText</a>
+                            </li>
+                            <li>
+                                <a href="https://mcmh.iqhealth.com/">Cerner Patient Portal</a>
+                            </li>
+                            <li>
+                                <a href="https://www.ziosuite.com/en-us/login">Ziosuite</a>
+                            </li>
+                            <li>   
+                                <a href="https://prod.cue4.com/caas">InterQual</a>
+                            </li>
+                            <li>
+                            <a href="https://secure.collectivemedical.com/static/edie-ui/#/login">Collective Medical</a>
+                            </li>
+                            <li>
+                                <a href="http://karl_web.mcmh.org/">Karl Storz</a>
+                        </li>
+                    </ul>
+                        <li><a href="http://www.uptodate.com/online">UpToDate</a></li>
+                        <li>
+                            <a href="https://webedition.sanfordguide.com/en">Sanford Guide</a>
+                        </li>
+                        <li>
+                            <a href="http://www.amion.com/cgi-bin/ocs?login=btm&Page=Call&Rsel=-7">Amion Provider Schedule</a>
+                        </li>
+                        <li>
+                            <a href="https://epiccarelink.bryanhealth.org/">Bryan Epic Care</a>
+                        </li>
+                        <li>
+                            <a href="https://hie.nebex.org/csp/healthshare/hsaccess/navigation/NEHI.AG.UI.ClinicalNavigation.cls">Cynchealth</a>
+                        </li>
+                        <li>
+                            <a href="https://mcmh.workvivo.com/">Workvivo</a>
+                        </li>
+                        <li>
+                            <a href="clinicalresource.html">Clinincal Resources</a>
+                        </li>
+                        <li>
+                            <a href="https://montgomerycounty.visitnow.org/">StrokeSOLO</a>
+                        </li>
+                        <li><p>PreAuth<b>+</b></p>
+                            <ul>
+
+                                <li>
+                                    <a href="http://filebound.mcmh.org/portal/189">PreAuth Form</a>
+                                </li>
+                                <li>
+                                    <a href="http://filebound.mcmh.org/portal/210">PreAuth Medication Form</a>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li>
+                            <a href="http://intranet/discharge_sheets">Discharge Sheets</a>
+                        </li>
+                        <li>
+                            <a href="http://intranet/Chart_Forms_Library">Chart Form Library</a>
+                        </li>
+                        <li>
+                    </li>
+                    
+                    </ul>
+                    </li>
+                </li>
+                <li><p class="top__dropdown">Internet Resources<b>▼</b></p>
+                    <ul>
+                        <li>
+                            <a href="https://www.mcmh.org/">MCMH Internet Web Page</a>
+                        </li>
+                        <li><p>Directory<b>+</b></p>
+                            <ul>
+                                <li>
+                                    <a href="http://intranet/Clincal/MontgomeryCo_Res_Dir.pdf">Montgomery Co Resource Directory</a>
+                                </li>
+                                <li>
+                                    <a href="">Page Co Resource Directory</a>
+                                </li>
+                                <li>
+                                    <a href="http://intranet/Clincal/CassCo_Res_Dir.pdf">Cass Co Resource Directory</a>
+                                </li>
+                                <li>
+                                    <a href="http://intranet/MillsCo%20Res%20Dir.pdf ">Mills Co Resource Directory</a>
+                                </li>
+                                <li>
+                                    <a href="http://intranet/Clincal/AdamsCo_Res_Dir.pdf">Adams Co Resource Directory</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="professional.html">Medical Research and Information</a>
+                        </li>
+                        <li>
+                            <a href="internethealth.html">Internet Health Resources</a>
+                        </li>
+                        <li>
+                            <a href="https://www.511ia.org/search/around/@-95.38496,40.90062,-94.92746,41.16003/@-95.29616,41.06042,10?show=iowaAppIncident,iowaAppRoadwork,future,winterDriving,regionalRoadConditions,weatherWarningsAreaEvents,weatherRadar">Iowa Road Conditions</a>
+                        </li>
+                        <li>
+                            <a href="https://www.weather.gov/">Weather</a>
+                        </li>
+                        <li>
+                            <a href="https://www.ipers.org/">IPERS</a>
+                        </li>
+                        <li>
+                            <a href="http://google.com/">Google Search</a>
+                        </li>
+                        <li>
+                            <a href="http://maps.google.com/">Google Maps</a>
+                        </li>
+                        <li>
+                            <a href="https://chemm.hhs.gov/download.htm">CHEMM</a>
+                        </li>
+                    </ul>
+                </li>
+                </li>
+                <li><p class="top__dropdown">Hospital Information<b>▼</b></p>
+                    <ul>
+                        <li>
+                            <a href="policy.html">Online Policy Manual</a>
+                        </li>
+                        <li>
+                            <a href="https://www.mcmh.org/clinics-services/specialty-outpatient-clinics">Outpatient Clinic Schedule</a>
+                        </li>
+                        <li><p>Call Schedules<b>+</b></p>
+                            <ul>
+                                <li>
+                                    <a href="http://intranet/admin/">Admin On-Call</a>
+                                </li>
+                                <li>
+                                    <a href="http://intranet/chaplain/">Chaplain On-Call</a>
+                                </li>
+                                <li>
+                                    <a href="http://intranet/Interpreters">Interpreters</a>
+                                </li>
+                                <li>
+                                    <a href="http://intranet/ROIM_Call/">ROIM Physician On-Call Schedule</a>
+                                </li>
+                                <li>
+                                    <a href="http://intranet/Malvern_call_schedule">Malvern Call Schedule</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="forms.html">MCMH Printable Forms</a>
+                        </li>
+                        <li>
+                            <a href="https://www.osha.gov/sites/default/files/publications/OSHA3514.pdf">MSDS Hazard Communication</a>
+                        </li>
+                        <li>
+                            <a href="http://intranet/Official%20News/MCMH%20Official%20News.htm">Official MCMH News and Information</a>
+                        </li>
+                        <li>
+                            <a href="http://filebound.mcmh.org/eforms/positioncontrolform.html">Position Control Form</a>
+                        </li>
+                        
+                    </ul>
+                </li>
+                </li>
+                <li><p class="top__dropdown">Server Links<b>▼</b></p>
+                    <ul>
+                        <li>
+                            <a href="http://192.168.0.201/login/login.html">Building Operations System</a>
+                        </li>
+                        <li>
+                            <a href="http://192.168.3.205/">Temperature Monitoring System</a>
+                        </li>
+                        <li>
+                            <a href="https://cloud.sensoscientific.com/Account/Login.aspx">2020 Senso Temp Monitoring</a>
+                        </li>
+                        <li>
+                            <a href="https://ws.speechmotion.com/winscribenet">Winscribe Server (Secure)</a>
+                        </li>
+                        <li><p>Cerner Links<b>+</b></p>
+                            <ul>
+
+                                <li>
+                                    <a href="https://profiles.cerner.com/">Cerner Care</a>
+                                </li>
+                                <li>
+                                    <a href="https://montgomerycountymemorialhospitallearn.cerner.com/client/auth/db_login">Cerner Learning Journeys</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="http://nt_app/PVE.aspx">Papervision</a>
+                        </li>
+                        <li>
+                            <a href="https://cmm.mcmh.org/">MCMH Conference Bridge</a>
+                        </li>
+                        <li>
+                            <a href="http://192.168.3.53:57772/csp/mh7601/IMSI.Login.cls">IMSI RIS</a>
+                        </li>
+                        <li>    
+                            <a href="https://mcmh.multiviewcorp.net/MVWeb">Multiview</a>
+                        </li>
+
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <script>
+            let menuToggle = document.querySelector('.menuToggle');
+            let header = document.querySelector('header');
+            menuToggle.onclick = function(){
+              header.classList.toggle('active');
+            }
+        </script>
+    </header>
+    <div class="body--1">
+        <div class="inner-body-1">
+            <div class="inner-half1">
+                <h1>Quick Links <img class="quicklink" src="IMAGES/link.png" alt=""></h1>
+                <section class="application-container">
+                    <div class="application" id="cerner" onclick="window.open('https://cerncomh.cernerworks.com/Citrix/PRODWeb/','_newtab');">
+                        <div class="application-img" ><h1>Cerner</h1></div>
+                    </div>
+                    <div class="application" id="cardio" onclick="window.open('https://cardio.mcmh.org/','_newtab');">
+                        <div class="application-img"><h1>Cardio Server</h1></div>    
+                    </div>
+                    <div class="application" id="xray" onclick="window.open('https://xray.mcmh.org/','_newtab');">
+                        <div class="application-img" class="xray"><h1>Offsite Xray</h1></div>                
+                    </div>
+                    <div class="application" id="email" onclick="window.open('https://owa.mcmh.org/owa','_newtab');">
+                        <div class="application-img"><h1>Email</h1></div>
+                    </div>
+                </section>
+                <section class="application-container">
+                    <div class="application" id="Ultipro" onclick="window.open('https://mcmh.ultipro.com/','_newtab');">
+                        <div class="application-img"><h1>UKG Pro</h1></div>
+                    </div>
+                    <div class="application" id="wheniwork" onclick="window.open('https://login.wheniwork.com/','_newtab');">
+                        <div class="application-img"><h1>When I Work</h1></div>
+                    </div>
+                    <div class="application" id="helpdesk" onclick="window.open('http://helpdesk/Login.asp','_newtab');">
+                        <div class="application-img"><h1>Help Desk</h1></div>               
+                    </div>
+                    <div class="application" id="filebound" onclick="window.open('http://filebound.mcmh.org/portal/','_newtab');">
+                        <div class="application-img"><h1>Filebound</h1></div>
+                    </div>
+                </section>
+                <section class="application-container">
+                    <div class="application" id="symplr" onclick="window.open('https://lms.healthcaresource.com/mynetlearning/montgomeryco','_newtab');">
+                        <div class="application-img"><h1>Net Learning</h1></div>
+                    </div>
+                    <div class="application" id="RDS" onclick="window.open('https://rds.mcmh.org/rdweb','_newtab');">
+                        <div class="application-img"><h1>RDS Web</h1></div>                      
+                    </div>
+                    <div class="application" id="Bestcare" onclick="window.open('https://mobile.bestcare.org/','_newtab');">
+                        <div class="application-img"><h1>Bestcare Portal</h1></div>                  
+                    </div>
+                    <div class="application" id="eventreport" onclick="window.open('http://filebound.mcmh.org/eforms/eventreport.html','_newtab');">
+                        <div class="application-img"><h1>Event Report</h1></div>               
+                    </div>
+                </section>
+            </div>
+            <div class="inner-half2">
+                <div class="inner-container1">
+                    <div class="widget-container">
+                        <nav>
+                        </nav>
+                        <div class="calendar-box">
+                            <section class="calendar-container">
+                                <section id="dycalendar"></section>
+                            </section>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="slideshow-container2">
+                    <input type="radio" name="r" id="r1" checked>
+                    <input type="radio" name="r" id="r2">
+                    <div class="slides">
+                        <div class="slide s1">
+                            <img src="IMAGES/mchm-front.png" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="IMAGES/MCMH-Outpatient.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright &#169; Montgomery County Memorial Hospital 2023</p>
+    </footer>
+
+
+<script src="dycalendar.js"></script>  
+<script>
+    dycalendar.draw({
+        target: '#dycalendar',
+        type: 'month',
+        highlighttargetdate: true,
+        prevnextbutton: 'show' 
+    })
+</script>
+<script>
+    function autocomplete(inp, arr) {
+      /*the autocomplete function takes two arguments,
+      the text field element and an array of possible autocompleted values:*/
+      var currentFocus;
+      /*execute a function when someone writes in the text field:*/
+      inp.addEventListener("input", function(e) {
+          var a, b, i, val = this.value;
+          /*close any already open lists of autocompleted values*/
+          closeAllLists();
+          if (!val) { return false;}
+          currentFocus = -1;
+          /*create a DIV element that will contain the items (values):*/
+          a = document.createElement("DIV");
+          a.setAttribute("id", this.id + "autocomplete-list");
+          a.setAttribute("class", "autocomplete-items");
+          /*append the DIV element as a child of the autocomplete container:*/
+          this.parentNode.appendChild(a);
+          /*for each item in the array...*/
+          for (i = 0; i < arr.length; i++) {
+            /*check if the item starts with the same letters as the text field value:*/
+            if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+              /*create a DIV element for each matching element:*/
+              b = document.createElement("DIV");
+              /*make the matching letters bold:*/
+              b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
+              b.innerHTML += arr[i].substr(val.length);
+              /*insert a input field that will hold the current array item's value:*/
+              b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+              /*execute a function when someone clicks on the item value (DIV element):*/
+              b.addEventListener("click", function(e) {
+                  /*insert the value for the autocomplete text field:*/
+                  inp.value = this.getElementsByTagName("input")[0].value;
+                  /*close the list of autocompleted values,
+                  (or any other open lists of autocompleted values:*/
+                  closeAllLists();
+              });
+              a.appendChild(b);
+            }
+          }
+      });
+      /*execute a function presses a key on the keyboard:*/
+      inp.addEventListener("keydown", function(e) {
+          var x = document.getElementById(this.id + "autocomplete-list");
+          if (x) x = x.getElementsByTagName("div");
+          if (e.keyCode == 40) {
+            /*If the arrow DOWN key is pressed,
+            increase the currentFocus variable:*/
+            currentFocus++;
+            /*and and make the current item more visible:*/
+            addActive(x);
+          } else if (e.keyCode == 38) { //up
+            /*If the arrow UP key is pressed,
+            decrease the currentFocus variable:*/
+            currentFocus--;
+            /*and and make the current item more visible:*/
+            addActive(x);
+          } else if (e.keyCode == 13) {
+            /*If the ENTER key is pressed, prevent the form from being submitted,*/
+            e.preventDefault();
+            if (currentFocus > -1) {
+              /*and simulate a click on the "active" item:*/
+              if (x) x[currentFocus].click();
+            }
+          }
+      });
+      function addActive(x) {
+        /*a function to classify an item as "active":*/ 
+        if (!x) return false;
+        /*start by removing the "active" class on all items:*/
+        removeActive(x);
+        if (currentFocus >= x.length) currentFocus = 0;
+        if (currentFocus < 0) currentFocus = (x.length - 1);       
+      }
+      function removeActive(x) {
+        /*a function to remove the "active" class from all autocomplete items:*/
+        for (var i = 0; i < x.length; i++) {
+          x[i].classList.remove("autocomplete-active");
+        }
+      }
+      function closeAllLists(elmnt) {
+        /*close all autocomplete lists in the document,
+        except the one passed as an argument:*/
+        var x = document.getElementsByClassName("autocomplete-items");
+        for (var i = 0; i < x.length; i++) {
+          if (elmnt != x[i] && elmnt != inp) {
+            x[i].parentNode.removeChild(x[i]);
+          }
+        }
+      }
+      document.addEventListener("click", function (e) {
+          closeAllLists(e.target);
+      });
+    }
+    
+    var webpages = ["Cerner", "Cardio Server", "Offsite Xray", "UKG Pro", "When I Work", "Help Desk", "Filebound", "Net Learning", "RDS Web", "Workvivo", "Phone Guide", "Email",
+     "Voice Mail Guide", "Notaries", "Emergency Couriers", "Compliance Hotline Numbers", "Responder 5 Client", "Phone List by Name/Department", "Department Manager Phone List", "Paging List & Cell Phone Numbers",
+     "Employee List w/ Home and Cell", "Emergency & Disaster Calling Lists", "Cafeteria Menus", "Catering Menus", "QuickCharge", "Group Exercise Schedule", "Lunch & Learn Schedule", "Human Resource FAQs",
+     "Find Help and Instructions", "Updox", "Tiger Text", "Cerner Patient Portal", "Ziosuite", "InterQual", "Collective Medical", "Karl Storz", "UpToDate", "Sanford Guide", "Amion Provider Schedule",
+     "Bryan Epic Care", "Cynchealth", "Bestcare Portal", "Clinical Resources", "StrokeSOLO", "PreAuth Form", "PreAuth Medication Form", "Discharge Sheets", "MCMH Internet Web Page",
+     "Montgomery Co Directory", "Page Co Directory", "Cass Co Directory", "Mills Co Directory", "Adams Co Directory", "Medical Research and Information", "Internet Health Resources", "Iowa Road Conditions", "IPERS",
+     "Google Search", "Google Maps", "CHEMM", "Online Policy Manual", "Outpatient Clinic Schedule", "Admin On-Call", "Chaplain On-Call", "Interpreters", "Physician On-Call Schedule", "Malvern Call Schedule",
+     "MCMH Printable Forms", "Position Control Form", "MSDS Hazard Communication", "Official MCMH News and Information", "Building Operation Systems", "Temperature Monitoring System", "2020 Senso Temp Monitoring",
+     "Winscribe Server", "Cerner Care", "Cerner Learning Journeys", "Papervision", "Event Report", "MCMH Conference Bridge", "IMSI RIS", "Multiview","Spectralink Guide",
+    "Medical Staff Credentials"];
+    
+    autocomplete(document.getElementById("myInput"), webpages);
+
+ 
+    </script>
+    <script src="searchbar.js"></script>
+    <script src="https://kit.fontawesome.com/77a00e25b1.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+<!-- Garrett Couse Summer 2023-->
